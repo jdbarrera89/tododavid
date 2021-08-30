@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododavid.Common", "tododavid.Common\tododavid.Common.csproj", "{BA67B7A7-8FA3-45D3-AEAD-15810F3F6A02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tododavid.Common", "tododavid.Common\tododavid.Common.csproj", "{BA67B7A7-8FA3-45D3-AEAD-15810F3F6A02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododavid.Functions", "tododavid.Functions\tododavid.Functions.csproj", "{371CCFDA-6089-4060-A537-185A69E885B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tododavid.Functions", "tododavid.Functions\tododavid.Functions.csproj", "{371CCFDA-6089-4060-A537-185A69E885B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tododavid.Test", "tododavid.Test\tododavid.Test.csproj", "{69B67F73-7CDB-4F52-BF0A-DAEC200BDA47}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tododavid.Test", "tododavid.Test\tododavid.Test.csproj", "{69B67F73-7CDB-4F52-BF0A-DAEC200BDA47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
