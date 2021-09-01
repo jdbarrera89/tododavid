@@ -7,15 +7,15 @@ using tododavid.Functions.Entities;
 
 namespace tododavid.Functions.Functions
 {
-    public static class ScheduleFunction
+    public static class ScheduledFunction
     {
-        [FunctionName("ScheduleFunction")]
+        [FunctionName("ScheduledFunction")]
         public static async Task Run(
             [TimerTrigger("0 */2 * * * *")] TimerInfo myTimer,
             [Table("todo", Connection = "AzureWebJobsStorage")] CloudTable todoTable,
             ILogger log)
         {
-            log.LogInformation($"Deleting complete function trigger function executed at: {DateTime.Now}");
+            log.LogInformation($"Deleting completed function trigger function executed at: {DateTime.Now}");
 
             string filter = TableQuery.GenerateFilterConditionForBool("IsCompleted", QueryComparisons.Equal, true);
             TableQuery<TodoEntity> query = new TableQuery<TodoEntity>().Where(filter);
